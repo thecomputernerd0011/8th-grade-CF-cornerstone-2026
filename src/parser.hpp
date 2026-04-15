@@ -13,5 +13,5 @@ struct Menu{
 struct MenuOption{
     Menu* Start;
     std::string text;
-    Menu* Destination
+    Menu* Destination;
 };

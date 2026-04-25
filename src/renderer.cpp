@@ -2,11 +2,16 @@
 #include <cstdio>
 
 void Menu::promptUser(){
-    int childID = 1;
+    unsigned long childID = 1;
     for(MenuOption* child : Children){
-        printf("\n\t%i. %s\n", childID, child->text.c_str());
+        printf("\n\t%zu. %s\n", childID, child->text.c_str());
         childID++;
     }
+    printf("Enter a number (1-%zu): ", Children.capacity());
+    unsigned long choice;
+    scanf("%zu", &choice);
+
+    Children[choice - 1]->Destination->open();
 }
 
 void Menu::open(){

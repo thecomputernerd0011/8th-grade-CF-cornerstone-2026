@@ -1,0 +1,29 @@
+[t@2]
+Habit 2: Begin with the end in mind
+[q@2>2.1]
+What does it mean to begin with the end in mind?
+[q@2>2.2]
+Mission statements
+[b@2.1]
+To begin with the end in mind is to plan it out before  you act. This habit is like a blueprint for your life. oIts like a rough draft for life. You write down your ideas as it comes to your head and then polish and turn into the final draft. When you use habit 2 you plan what you would like to do that day and then write down how you are going to do it and then you polish and do it.
+
+[b@2.2]
+Mission statements are everywhere. You see them at school, at church,maybe even at home. Mission statements vary greatly between purposes. For example a mission statement for a grocery store might be something like:
+We will always sell fresh produce and smile at our customers.We will never frown at someone or judge them…
+Meanwhile a mission statement for a bookstore might be something like this:
+The books we sell will always be in pristine condition. We will always have the newest in all the popular book series…
+Mission statements can be bullet point lists. There is no set standard for what a mission statement has to be.
+[t@2.2]
+Examples of mission statements
+[b@2.2]
+Microsoft: "To empower every person and every organization on the planet to achieve more"
+Google: "To organize the world's information and make it universally accessible and useful".
+Spotify: "To unlock the potential of human creativity—by giving a million creative artists the opportunity to live off their art and billions of fans the opportunity to enjoy and be inspired by it".
+Asana: "To help humanity thrive by enabling all teams to work together effortlessly".
+Nike: "Bring inspiration and innovation to every athlete in the world. If you have a body, you are an athlete".
+Starbucks: "To inspire and nurture the human spirit—one person, one cup and one neighborhood at a time".
+Walmart: "To save people money so they can live better".
+Patagonia: "We’re in business to save our home planet" (often cited for environmental focus). 
+American Red Cross: "To prevent and alleviate human suffering in the face of emergencies".
+TED: "Spread ideas".
+Habitat for Humanity: "Seeking to put God’s love into action, Habitat for Humanity brings people together to build homes, communities and hope". 

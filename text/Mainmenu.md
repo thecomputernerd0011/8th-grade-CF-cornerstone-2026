@@ -1,0 +1,21 @@
+[t@0]
+Who am I?
+[b@0]
+I am your constant companion. I am your greatest helper or heaviest version. I will push you onward or drag you down to failure. I am completely at your command. Half the things you do might just as well turn over to me, and I will be able to do them quickly and correctly.
+
+I am easily managed—you must merely be firm with me. Show me exactly how you want something done, and after a few lessons, I will do it automatically. I am the servant of all great individuals and, alas, of all great failures, as well. Those who are great, I have made great. Those who are failures, I have made failures.
+
+I am not a machine, though I work with all the precision of a machine plus the intelligence of a machine plus the intelligence of a human. You may run me for a profit or run me for a profit or run me for ruin—it makes no difference to me.
+
+Take me, train me, be firm with me, and I will place the world at your feet. BE easy with me, and I will destroy you.
+
+What habit would you like to learn about?
+
+[q@0>1]
+1st habit: Be Proactive
+[q@0>2]
+2nd habit: Begin with the end in mind
+[q@0>3]
+3rd habit: Put first things first
+[q@0>0.0]
+Quiz: What did you learn?

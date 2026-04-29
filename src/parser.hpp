@@ -16,7 +16,7 @@ struct formattedSection{
     std::string mainText;
 };
 
-menu* StringIDtoMenuPtr(char* ID); // This can and will create new menu objects to make sure an ID actually goes somewhere
+menu* StringIDtoMenuPtr(const char* ID); // This can and will create new menu objects to make sure an ID actually goes somewhere
 
 menuOption* interpretOption(formattedSection readInfo);
 

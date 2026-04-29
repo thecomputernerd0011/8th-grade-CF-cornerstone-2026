@@ -1,9 +1,9 @@
 #include "renderer.hpp"
 #include <cstdio>
 
-void Menu::promptUser(){
+void menu::promptUser(){
     unsigned long childID = 1;
-    for(MenuOption* child : Children){
+    for(menuOption* child : Children){
         printf("\n\t%zu. %s\n", childID, child->text.c_str());
         childID++;
     }
@@ -14,11 +14,11 @@ void Menu::promptUser(){
     Children[choice - 1]->Destination->open();
 }
 
-void Menu::open(){
+void menu::open(){
     printf("%s\n%s", Title.c_str(), Body.c_str());
     promptUser();
 }
 
-void startRenderer(Menu* mainMenu){
+void startRenderer(menu* mainMenu){
     mainMenu->open();
 }

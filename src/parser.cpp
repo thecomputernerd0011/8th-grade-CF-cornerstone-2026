@@ -11,7 +11,7 @@ menu* StringIDtoMenuPtr(const char* ID){
         if(strcmp(suspect->ID.c_str(), ID) == 0)
             return suspect;
     }
-    menu* newMenu = new menu{ID, "Stub", "Leave this place while you still can!"};
+    menu* newMenu = new menu{ID, "---ERROR!---\n", ""};
     Scene.push_back(newMenu);
     return newMenu;
 }
@@ -40,7 +40,7 @@ void parseSection(formattedSection Section){
             break;
         }
         default:
-            printf("Failed to parse:\n%s\n%s", Section.formatText.c_str(), Section.mainText.c_str());
+            printf("Failed to parse:\n%s%s", Section.formatText.c_str(), Section.mainText.c_str());
             return;
     }
 }
@@ -48,7 +48,7 @@ void parseSection(formattedSection Section){
 void parseFile(std::string path){
     std::ifstream File(path);
     if(!File.is_open()){
-        // handle error
+        printf("Failed to open %s\n", path.c_str());
         return;
     }
     std::string currentLine;
@@ -66,7 +66,7 @@ void parseFile(std::string path){
             currentSection.formatText = currentLine;
             currentSection.mainText = "";
             switch (currentLine.c_str()[1]) {
-                case 'T':
+                case 't':
                     currentSection.dataType = TITLE;
                     break;
                 case 'b':
@@ -76,6 +76,7 @@ void parseFile(std::string path){
                     currentSection.dataType = OPTION;
                     break;
                 default:
+                    printf("failed to parse a format\n");
                     currentSection.dataType = NOTFORMAT;
             }
         } else {
@@ -90,8 +91,8 @@ void parseFile(std::string path){
 }
 
 int main(){
-    parseFile("../text/Mainmenu.md");
-    parseFile("../text/1sthabit.md");
-    parseFile("../text/2sthabit.md");
+    parseFile("./text/Mainmenu.txt");
+    parseFile("./text/1sthabit.txt");
+    parseFile("./text/2ndhabit.txt");
     StringIDtoMenuPtr("0")->open();
 }

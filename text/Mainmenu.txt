@@ -15,7 +15,3 @@ What habit would you like to learn about?
 1st habit: Be Proactive
 [q@0>2]
 2nd habit: Begin with the end in mind
-[q@0>3]
-3rd habit: Put first things first
-[q@0>0.0]
-Quiz: What did you learn?

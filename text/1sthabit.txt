@@ -3,20 +3,17 @@ Habit 1
 [q@1>1.1]
 Proactive and reactive language
 [q@1>1.2]
-PBA
+Personal bank account(PBA)
 [b@1.1]
-There are 2 different types of language: proactive and reactive. Proactive is when you try to 
-Proactive language : 
-Reactive language: I’ll try, That's just the way I am, There's nothing I can do,
-
-REACTIVE LANGUAGE:
-    "I’ll try
-    That’s just the way I am
-    There’s nothing I can do
-    I have to
-    I can’t
-    You ruined my day"
-PROACTIVE LANGUAGE
+There are 2 different types of language: proactive language and reactive language. Proactive language is when you try to look at the positive and believe that you can change. Reactive language is when you  try to look at the negative and believe that change is impossible
+Examples of reactive language:
+    "I’ll try"
+    "That’s just the way I am"
+    "There’s nothing I can do"
+    "I have to"
+    "I can’t"
+    "You ruined my day"
+Examples of proactive language:
     "I’ll do it"
     "I can do better than that"
     "Let’s look at all our options"
@@ -24,18 +21,19 @@ PROACTIVE LANGUAGE
     "There’s gotta be a way"
     "I’m not going to let your bad mood rub off on me"
 [b@1.2]
+The higher your personal Bank account is the more you trust yourself and the more confident you are in yourself.
 Possible Symptoms of a Poor PBA 
-    You cave in to peer pressure easily.
-    You wrestle with feelings of depression and inferiority.
-    You’re overly concerned about what others think of you.
-    You act arrogant to help hide your insecurities.
-    You self-destruct by getting heavily into drugs, pornography, vandalism, or gangs.
-    You get jealous easily, especially when someone close to you succeeds.
+    1.You cave in to peer pressure easily.
+    2.You wrestle with feelings of depression and inferiority.
+    3.You’re overly concerned about what others think of you.
+    4.You act arrogant to help hide your insecurities.
+    5.You self-destruct by getting heavily into drugs, pornography, vandalism, or gangs.
+    6.You get jealous easily, especially when someone close to you succeeds.
 
 Possible Symptoms of a Healthy PBA 
-    You stand up for yourself and resist peer pressure.
-    You’re not overly concerned about being popular.
-    You see life as a generally positive experience.
-    You trust yourself.
-    You are goal driven.
-    You are happy for the successes of others.
+    1.You stand up for yourself and resist peer pressure.
+    2.You’re not overly concerned about being popular.
+    3.You see life as a generally positive experience.
+    4.You trust yourself.
+    5.You are goal driven.
+    6.You are happy for the successes of others.

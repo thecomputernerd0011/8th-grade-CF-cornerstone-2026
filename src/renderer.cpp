@@ -1,17 +1,16 @@
 #include "renderer.hpp"
 #include <cstdio>
-#include <sys/ioctl.h>
-#include <unistd.h>
+#include <windows.h>
 
 bool goBack = false;
 void menu::promptUser(){
-    unsigned long childID = 1;
+    size_t childID = 1;
     for(menuOption* child : Children){
         printf("\n\t%zu. %s\n", childID, child->text.c_str());
         childID++;
     }
     printf("\n\t0. Go back\n\nEnter a number (0-%zu): ", Children.size());
-    unsigned long choice;
+    size_t choice;
     scanf("%zu", &choice);
 
     if (choice == 0){
@@ -23,9 +22,10 @@ void menu::promptUser(){
 }
 
 void printCentered(const std::string& text){
-    struct winsize w;
-    ioctl(STDOUT_FILENO, TIOCGWINSZ, &w);
-    int padding = (w.ws_col - text.size()) / 2;
+    CONSOLE_SCREEN_BUFFER_INFO csbi;
+    GetConsoleScreenBufferInfo(GetStdHandle(STD_OUTPUT_HANDLE), &csbi);
+    int width = csbi.srWindow.Right - csbi.srWindow.Left + 1;
+    int padding = (width - (int)text.size()) / 2;
     printf("%*s%s\n", padding, "", text.c_str());
 }
 
@@ -47,7 +47,7 @@ void pagedPrint(const std::string& text){
 
 void menu::open(){
     while (!goBack){
-        system("clear");
+        system("cls");
         printf("\n");
         printCentered(Title); // "centered text"
 

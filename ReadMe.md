@@ -1,11 +1,11 @@
 Github Repository for our code for our CF conerstone project.  Use to learn about habits 1 and 2 if you would like to learn about it.
 
-To run:
+To run in visual studio:
 
 Invoke-WebRequest -Uri "https://github.com/thecomputernerd0011/8th-grade-CF-cornerstone-2026.git" -OutFile "8th-grade-CF-cornerstone.zip"
 Expand-Archive -Path "8th-grade-CF-cornerstone.zip" -DestinationPath "8th-grade-CF-cornerstone"
 
-IN POWERSHELL:
+To run in POWERSHELL:
 
 winget install --id Microsoft.VisualStudio.2022.BuildTools --override "--passive --add Microsoft.VisualStudio.Workload.VCTools --includeRecommended"
 

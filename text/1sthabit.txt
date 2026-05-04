@@ -4,6 +4,8 @@ Habit 1
 Proactive and reactive language
 [q@1>1.2]
 PBA
+[t@1.1]
+Proactive and reactive launguage
 [b@1.1]
 There are 2 different types of language: proactive and reactive. Proactive is when you try to 
 Proactive language : 
@@ -23,6 +25,8 @@ PROACTIVE LANGUAGE
     "I choose to"
     "There’s gotta be a way"
     "I’m not going to let your bad mood rub off on me"
+[t@1.2]
+PBA
 [b@1.2]
 Possible Symptoms of a Poor PBA 
     You cave in to peer pressure easily.

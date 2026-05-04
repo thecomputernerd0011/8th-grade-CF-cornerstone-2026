@@ -4,9 +4,12 @@ Habit 2: Begin with the end in mind
 What does it mean to begin with the end in mind?
 [q@2>2.2]
 Mission statement Examples
+[t@2.1]
+Beggining with the end in mind.
 [b@2.1]
 To begin with the end in mind is to plan it out before  you act. This habit is like a blueprint for your life. Its like a rough draft for life. You write down your ideas as it comes to your head and then polish and turn into the final draft. When you use habit 2 you plan what you would like to do that day and then write down how you are going to do it and then you polish and do it.
-
+[t@2.2] 
+Mission statment examples
 [b@2.2]
 Mission statements are everywhere. You see them at school, at church,maybe even at home. Mission statements vary greatly between purposes. For example a mission statement for a grocery store might be something like:
 We will always sell fresh produce and smile at our customers.We will never frown at someone or judge them…
